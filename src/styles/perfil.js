@@ -17,6 +17,9 @@ export default StyleSheet.create({
     borderRadius: 20,
     alignItems: "center",
   },
+  containerChildren: {
+    justifyContent: 'flex-start',
+  },
   imagemUsuario: {
     height: 100,
     width: 100,

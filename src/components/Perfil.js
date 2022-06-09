@@ -1,16 +1,13 @@
-import React, { useState, useCallback } from "react";
+import React from "react";
 import {
   TextInput,
   View,
   TouchableOpacity,
   Image,
   Text,
-  SafeAreaView,
 } from "react-native";
 import AccordionListItem from "./Accordion";
 import styles from "../styles/perfil";
-
-// const postagens = [];
 
 const Perfil = () => {
   return (

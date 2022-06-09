@@ -7,7 +7,7 @@ import {
   Animated,
   Easing,
 } from 'react-native';
-import { MaterialIcons } from '@expo/vector-icons';
+import { MaterialIcons } from 'react-native-material-icons';
 
 const AccordionListItem = ({ title, children }) => {
   const [open, setOpen] = useState(false);
